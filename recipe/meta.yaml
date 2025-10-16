@@ -22,11 +22,11 @@ requirements:
     - {{ stdlib("c") }}
   host:
     - cython
-    - numpy >=1.20
+    - numpy
     - pip
     - python
+    - setuptools
   run:
-    - {{ pin_compatible('numpy') }}
     - python
     - scipy >=1.2
 
