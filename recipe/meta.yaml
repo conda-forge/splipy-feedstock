@@ -46,5 +46,4 @@ about:
   license_file: COPYING
 
 extra:
-  recipe-maintainers:
-    - conda-forger
+  recipe-maintainers: []
